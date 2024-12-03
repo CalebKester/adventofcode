@@ -4,13 +4,10 @@
 2. Let it initialize
 3. Go to your adventOfCode’s page to find the session cookie by going to Inspect -> Application -> Cookies -> https://adventofcode.com -> run
 4. Make a .env file and add `SESSION=your_session_cookie`
-5. To run the code, use the terminal, cd 2022, node xxx.mjs
-6. You need to manually terminate the nodejs process. Use cmd+c.
+5. To run the code, type `node 2024/3.mjs 1` where 1 is the part number
+6. To submit the code, type `node 2024/3.mjs 1 submit` (or anything after the part number, ust pass a 2nd param)
 7. Refer to https://github.com/toblu/advent-of-code-client for instructions on pulling and submitting data.
 
 ## TODO
 
-1. Better document
-2. Better organize
-3. Add env var for session
 4. https://github.com/marketplace/actions/aoc-badges
